@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap');
+
+:root {
+    --VeryDarkViolet: #2C2830;
+    --DarkViolet: #2D2641;
+    --GrayishBlue: #96A9C6;
+    --DarkGrayishViolet: #837D88;
+    --VeryLightGray: #FAFAFA;
+
+    /* font-family: 'DM Serif Display', serif;
+    font-family: 'Karla', sans-serif; */
+}
+
+h2 {
+font-size: 40px;
+font-weight:200;
+margin-bottom: 8px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    font-family: 'Karla', sans-serif;
+    padding: 31px 0px 31px 0px;
+    text-transform: uppercase;
+}
+
+header nav {
+    color: var(--DarkGrayishViolet);
+    padding: auto;
+    padding-left: 500px;
+    flex-grow: 80%;
+}
+
+header .logo {
+    flex-grow: 20%;
+    margin-left: 168px;
+}
+
+header nav a {
+    margin: 16px;
+}
+
+.buttonNav {
+    border: solid 1px var(--VeryDarkViolet);
+    color: var(--DarkViolet);
+    padding: 13px 28.5px 12px 28.5px;
+}
+
+.barra-menu {
+    display: none;
+}
+
+/* hasta aca el header  */
+
+.uno {
+    background-color: #33be5e;
+    color:var(--VeryLightGray); 
+    display: flex;
+    height: 600px;
+    position: relative;
+}
+
+.uno div {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 80px;
+    width: 40%;
+}
+
+.uno div h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 72px;
+    line-height: 64px;
+    margin-bottom: 30px;
+    margin-top: 69px;
+}
+
+.uno div p {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 50px;
+}
+
+.button {
+    border: solid 1px var(--VeryLightGray);
+    color: var(--VeryLightGray);
+    font-family: 'Karla', sans-serif;
+    padding: 13px 28.5px 12px 28.5px;
+}
+
+.imagen-intro-mobile {
+    display: none;
+}
+
+.imagen-intro-desktop {
+    position: absolute;
+    top: 90px;
+    left: 50%;
+}
+
+.pattern1 {
+    position: absolute;
+    left: 70%;
+}
+
+.pattern2 {
+    position: absolute;
+    right: 87%;
+    bottom: -60%;
+}
+
+/* hasta aca la seccion uno  */
+
+.dos {
+    height: 600px;
+}
+
+.dos h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 72px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    margin-bottom: 96px;
+    margin-left: 180px;
+    margin-top: 400px;
+}
+
+.dos div {
+    color: var(--VeryDarkViolet);
+    display: flex;
+    justify-content: space-around;
+    margin-left: 180px;
+    margin-right: 150px;
+}
+
+.dos div article {
+    width: 350px;
+}
+
+.dos div article h5 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: -0.388889px;
+    margin-top: 32px;
+}
+
+.dos div article p {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 16px;
+}
+
+/* hasta aca el fondo dos  */
+
+.tres {
+    width: 1110px;
+    height: 250px;
+    background-color: var(--DarkViolet);
+    display: flex;
+    margin: 0px 165px 150px 165px;
+    /* padding: 69px 81px 69px 80px; */
+    position: relative;
+}
+
+.tres h2 {
+    color: var(--VeryLightGray);
+    font-family: 'DM Serif Display', serif;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 56px;
+    margin: 69px 0px 69px 81px;
+}
+
+.tres a  {
+    height: 40px;
+    width: 200px;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    margin: 105px 0px 105px 214px;
+}
+
+.tres img {
+    position: absolute;
+    height: 250px;
+    bottom: 0%;
+    right: 0%;
+}
+
+/* hasta aca el fondo tres  */
+
+footer {
+    background-color: var(--VeryLightGray);
+    background-image: url(FE_Examen_Integrador_Consigna/images/bg-pattern-footer-desktop.svg);
+    background-repeat: no-repeat;
+    font-family: 'Karla', sans-serif;
+    height: 393px;
+    text-transform: uppercase;
+}
+
+footer .navegacion-baja {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+footer .pie {
+    display: flex;
+    justify-content: space-around;    
+    height: 140px;
+}
+
+footer .pie div span{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+footer .rectangle {
+    margin-left: 165px;
+    margin-bottom: 69px;
+    margin-top: -10px;
+}
+
+
+@media screen and (max-width: 375px){
+    header {
+        background-color: white;
+        font-family: 'Karla', sans-serif;
+        height: 80px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    header img {
+    }
+    
+    header nav {
+        display: none;
+    }
+
+    header .logo {
+        flex-grow: 0%;
+        margin-left: 0px;
+    }
+
+    header .barra-menu {
+        display: block;
+        height: 32px;
+        width: 32px;
+        margin-top: -5px;
+        margin-left: 180px;
+    }
+    
+    /* hasta aca el header  */
+
+    .imagen-intro-mobile {
+        display: block;
+        width: 100vw;
+        order: -1;
+    }
+    
+    .imagen-intro-desktop {
+        display: none;
+    }
+    
+    .pattern1 {
+        display: none;
+    }
+    
+    .pattern2 {
+        display: none;
+    }
+    
+    .uno {
+        background-color: var(--DarkViolet);
+        color:var(--VeryLightGray); 
+        display: flex;
+        flex-direction: column;
+        height: 960px;
+        position: relative;
+    }
+    
+    .uno div {
+        margin-top: 93px;
+        margin-left: 24px;
+        margin-bottom: 93px;
+        margin-right: 24px;
+        width: 100vw;
+    }
+    
+    .uno div h1 {
+        font-family: 'DM Serif Display', serif;
+        font-size: 40px;
+        line-height: 48px;
+        margin-bottom: 10px;
+        margin-top: 0px;
+        text-align: center;
+        width: 327px;
+    }
+    
+    .uno div p {
+        font-family: 'Karla', sans-serif;
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 32px;
+        width: 327px;
+        text-align: center;
+    }
+    
+    .button {
+        border: solid 1px var(--VeryLightGray);
+        color: var(--VeryLightGray);
+        font-family: 'Karla', sans-serif;
+        padding: 13px 28.5px 12px 28.5px;
+        margin-left: 80px;
+    }
+    
+    /* hasta aca la seccion uno  */
+    
+    .dos {
+        height: 1100px;
+    }
+    
+    .dos h2 {
+        font-family: 'DM Serif Display', serif;
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: -0.666667px;
+        margin-bottom: 80px;
+        margin-left: 24px;
+        margin-top: 181px;
+        margin-right: 24px;
+    }
+    
+    .dos div {
+        color: var(--VeryDarkViolet);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+    
+    .dos div article {
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+    }
+    
+    .dos div article h5 {
+        font-family: 'DM Serif Display', serif;
+        font-size: 28px;
+        line-height: 38px;
+        letter-spacing: -0.388889px;
+        margin-top: 32px;
+    }
+    
+    .dos div article p {
+        font-family: 'Karla', sans-serif;
+        font-size: 16px;
+        line-height: 26px;
+        margin-top: 16px;
+        text-align: center;
+    }
+    
+    /* hasta aca el fondo dos  */
+    
+    .tres {
+        width: 327px;
+        height: 344px;
+        background-color: var(--DarkViolet);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px 24px 140px 24px;
+        padding: 0px 0px 0px 0px;
+        position: relative;
+    }
+    
+    .tres h2 {
+        color: var(--VeryLightGray);
+        font-family: 'DM Serif Display', serif;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 40px;
+        margin: 72px 0px 40px 0px;
+        text-align: center;
+    }
+    
+    .tres a  {
+        height: 40px;
+        width: 200px;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 15px;
+        text-align: center;
+        letter-spacing: 1.5px;
+        margin: 0px 0px 0px 0px;
+    }
+    
+    .tres img {
+        display: none;
+    }
+    
+    /* hasta aca el fondo tres  */
+    
+    footer {
+        background-color: var(--VeryLightGray);
+        background-image: url(FE_Examen_Integrador_Consigna/images/bg-pattern-footer-mobile.svg);
+        background-repeat: no-repeat;
+        font-family: 'Karla', sans-serif;
+        height: 1025px;
+        text-transform: uppercase;
+    }
+    
+    footer .navegacion-baja {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 50px;
+    }
+
+    footer .navegacion-baja nav {
+        margin-top: 32px;
+    }
+
+    footer .navegacion-baja nav img{
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    
+    footer .pie {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        height: 720px;
+        margin-top: 30px;
+    }
+    
+    footer .pie div {
+        margin: 15px;
+    }
+
+    footer .pie div span{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+    
+    footer .rectangle {
+        display: none;
+    }
+    
+    footer form {
+        display: none;
+    }
+
+    #titulos {
+        color: var(--DarkGrayishViolet);
+    }
+
+}
+
