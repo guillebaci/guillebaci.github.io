@@ -1,20 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap');
 
 :root {
-    --VeryDarkViolet: #2C2830;
-    --DarkViolet: #2D2641;
-    --GrayishBlue: #96A9C6;
-    --DarkGrayishViolet: #837D88;
+    --VeryDarkViolet: #238743;
+    --DarkViolet: #33be5e;
+    --GrayishBlue: #071c42;
+    --DarkGrayishViolet: #103f98;
     --VeryLightGray: #FAFAFA;
 
     /* font-family: 'DM Serif Display', serif;
     font-family: 'Karla', sans-serif; */
-}
-
-h2 {
-font-size: 40px;
-font-weight:200;
-margin-bottom: 8px;
 }
 
 *{
@@ -57,6 +51,7 @@ header nav a {
     display: none;
 }
 
+
 /* hasta aca el header  */
 
 .uno {
@@ -82,6 +77,13 @@ header nav a {
     margin-top: 69px;
 }
 
+.uno div h2 {
+    font-family: 'Karla', sans-serif;
+    font-size: 40px;
+    font-weight:600;
+    margin-bottom: 8px;
+    }
+
 .uno div p {
     font-family: 'Karla', sans-serif;
     font-size: 16px;
@@ -89,11 +91,19 @@ header nav a {
     margin-bottom: 50px;
 }
 
-.button {
+.uno .button {
     border: solid 1px var(--VeryLightGray);
     color: var(--VeryLightGray);
     font-family: 'Karla', sans-serif;
     padding: 13px 28.5px 12px 28.5px;
+}
+
+button {
+    background-color: #33be5e;
+    font-family: 'Karla', sans-serif;
+    color: #FAFAFA;
+    font-size: 15px;
+    border-width: 0px;
 }
 
 .imagen-intro-mobile {
@@ -120,7 +130,7 @@ header nav a {
 /* hasta aca la seccion uno  */
 
 .dos {
-    height: 600px;
+    height: 1000px;
 }
 
 .dos h2 {
@@ -137,8 +147,8 @@ header nav a {
     color: var(--VeryDarkViolet);
     display: flex;
     justify-content: space-around;
-    margin-left: 180px;
-    margin-right: 150px;
+    /*margin-left: 180px;*/
+    /*margin-right: 150px;*/
 }
 
 .dos div article {
@@ -146,8 +156,8 @@ header nav a {
 }
 
 .dos div article h5 {
-    font-family: 'DM Serif Display', serif;
-    font-size: 28px;
+    font-family: 'Karla', sans-serif;
+    font-size: 30px;
     line-height: 38px;
     letter-spacing: -0.388889px;
     margin-top: 32px;
@@ -155,7 +165,7 @@ header nav a {
 
 .dos div article p {
     font-family: 'Karla', sans-serif;
-    font-size: 16px;
+    font-size: 22px;
     line-height: 26px;
     margin-top: 16px;
 }
@@ -163,11 +173,11 @@ header nav a {
 /* hasta aca el fondo dos  */
 
 .tres {
-    width: 1110px;
+    width: 1610px;
     height: 250px;
-    background-color: var(--DarkViolet);
+    background-color: var(--GrayishBlue);
     display: flex;
-    margin: 0px 165px 150px 165px;
+    margin: 0px 165px 150px 0px;
     /* padding: 69px 81px 69px 80px; */
     position: relative;
 }
@@ -179,6 +189,17 @@ header nav a {
     font-weight: 400;
     line-height: 56px;
     margin: 69px 0px 69px 81px;
+}
+
+.tres button {
+    background-color: var(--GrayishBlue);
+    font-size: 20px;
+    padding: 10px 20px;
+    border: solid 1px var(--VeryLightGray);
+    color: var(--VeryLightGray);
+    font-family: 'Karla', sans-serif;
+    padding: 13px 30px 12px 40px;
+
 }
 
 .tres a  {
@@ -478,4 +499,6 @@ footer .rectangle {
     }
 
 }
+
+
 
