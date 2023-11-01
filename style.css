@@ -75,6 +75,7 @@ header nav a {
     line-height: 64px;
     margin-bottom: 30px;
     margin-top: 69px;
+    color: #071c42;
 }
 
 .uno div h2 {
@@ -174,10 +175,10 @@ button {
 
 .tres {
     width: 1610px;
-    height: 250px;
+    height: 850px;
     background-color: var(--GrayishBlue);
     display: flex;
-    margin: 0px 165px 150px 0px;
+    margin: 0px 165px 10px 0px;
     /* padding: 69px 81px 69px 80px; */
     position: relative;
 }
@@ -188,7 +189,7 @@ button {
     font-size: 56px;
     font-weight: 400;
     line-height: 56px;
-    margin: 69px 0px 69px 81px;
+    margin: 470px 0px 69px 81px;
 }
 
 .tres button {
@@ -199,9 +200,12 @@ button {
     color: var(--VeryLightGray);
     font-family: 'Karla', sans-serif;
     padding: 13px 30px 12px 40px;
-
+    margin: 470px 0px 20px 70px;
+    height: 60px;
+    width: 300px;
 }
 
+/*
 .tres a  {
     height: 40px;
     width: 200px;
@@ -212,10 +216,11 @@ button {
     letter-spacing: 1.5px;
     margin: 105px 0px 105px 214px;
 }
+*/
 
 .tres img {
     position: absolute;
-    height: 250px;
+    height: 850px;
     bottom: 0%;
     right: 0%;
 }
@@ -227,26 +232,26 @@ footer {
     background-image: url(FE_Examen_Integrador_Consigna/images/bg-pattern-footer-desktop.svg);
     background-repeat: no-repeat;
     font-family: 'Karla', sans-serif;
-    height: 393px;
+    height: 693px;
     text-transform: uppercase;
 }
 
 footer .navegacion-baja {
     display: flex;
     justify-content: space-around;
-    padding: 50px;
+    padding: 80px;
 }
 
 footer .pie {
     display: flex;
     justify-content: space-around;    
-    height: 140px;
+    height: 440px;
 }
 
 footer .pie div span{
     display: flex;
     flex-direction: column;
-    margin: 10px;
+    margin: 40px;
 }
 
 footer .rectangle {
@@ -310,7 +315,7 @@ footer .rectangle {
         color:var(--VeryLightGray); 
         display: flex;
         flex-direction: column;
-        height: 960px;
+        height: 1000px;
         position: relative;
     }
     
@@ -352,7 +357,7 @@ footer .rectangle {
     /* hasta aca la seccion uno  */
     
     .dos {
-        height: 1100px;
+        height: 2200px;
     }
     
     .dos h2 {
@@ -402,15 +407,25 @@ footer .rectangle {
     /* hasta aca el fondo dos  */
     
     .tres {
-        width: 327px;
-        height: 344px;
-        background-color: var(--DarkViolet);
+        width: 374px;
+        height: 544px;
+        background-color: var(--GrayishBlue);
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 0px 24px 140px 24px;
-        padding: 0px 0px 0px 0px;
+        padding: 100px 4px 0px 4px;
         position: relative;
+    }
+
+    .tres button {
+        height: 40px;
+        width: 200px;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 15px;
+        text-align: center;
+        letter-spacing: 1.5px;
+        margin: 0px 0px 0px 0px;
     }
     
     .tres h2 {
@@ -422,7 +437,7 @@ footer .rectangle {
         margin: 72px 0px 40px 0px;
         text-align: center;
     }
-    
+
     .tres a  {
         height: 40px;
         width: 200px;
@@ -433,7 +448,7 @@ footer .rectangle {
         letter-spacing: 1.5px;
         margin: 0px 0px 0px 0px;
     }
-    
+
     .tres img {
         display: none;
     }
@@ -445,7 +460,7 @@ footer .rectangle {
         background-image: url(FE_Examen_Integrador_Consigna/images/bg-pattern-footer-mobile.svg);
         background-repeat: no-repeat;
         font-family: 'Karla', sans-serif;
-        height: 1025px;
+        height: 1550px;
         text-transform: uppercase;
     }
     
@@ -472,12 +487,12 @@ footer .rectangle {
         justify-content: space-around;
         align-items: center;
         text-align: center;
-        height: 720px;
+        height: 1200px;
         margin-top: 30px;
     }
     
     footer .pie div {
-        margin: 15px;
+        margin: 25px;
     }
 
     footer .pie div span{
@@ -499,6 +514,8 @@ footer .rectangle {
     }
 
 }
+
+
 
 
 
